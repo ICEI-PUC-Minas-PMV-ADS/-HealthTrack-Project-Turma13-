@@ -1,0 +1,83 @@
+
+/* ALTERAÇÃO DE FONTES DO CADASTRO ONDE SERA PREENCHIDO */
+@font-face {
+    font-family: 'Monda';
+    src: url('fonts/Monda-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    src: url;
+}
+
+/* ALTERAÇÃO DE FONTES DA ESCRITA "CADASTRE-SE" */
+@font-face {
+    font-family: 'Jost';
+        src: url('fonts/jostregular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+/* LOGO ABAIXO E A ENQUADRAMENTO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* AQUI ESTÁ O BACKGROUND DA PAGINA */
+body{ 
+    height: 100vh;
+    background-image: url('imagens/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+/* AQUI ESTÁ A CENTRALIZAÇÃO DO FORMULARIO */
+main{
+    
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(0,-50%);
+}
+
+/* FORMULARIO DO CADASTRO E BACKGROUND BRANCO */
+.cadastro{
+font-family: 'Monda', 'Times', 'serif';
+    background-color: aliceblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px ;
+    padding: 40px 70px 100px;
+    
+    
+}
+
+/* CENTRALIZAÇÃO DA ESCRITA "CADASTRE-SE" */
+.h1{
+    font-family: 'Jost', 'Times', 'serif';  
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: -53%;
+    color: #fff;
+    font-size: 18px;
+   
+}
+
+/* BACKGROUND COM DEGRADE PARTE ESQUERDA */
+.q2{
+     
+    display: flex;
+    position: absolute;
+    top:-2.15% ;
+    left: -70%;
+    transform: translate(1%, 2.15%);
+    background-image: linear-gradient(-20deg, rgb(174, 16, 5) 20%, rgb(240, 83, 72));
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    padding: 0 70px 465.2px;
+   
+}
